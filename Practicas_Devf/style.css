@@ -1,0 +1,72 @@
+body{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 20px;
+    background: #553820;
+    min-height: 100vh;
+
+}
+
+/* INTRO */
+.container{
+    background: rgba(245, 234, 215, 0.863);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+
+
+
+
+/* AREA DE PEDIDOS */
+
+
+
+.bebidas{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    background-color: #705036;
+    color: white;
+    border: none;
+    padding: 12px, 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size:14px;
+    font-weight: bold;
+    min-width: 120px;
+
+}
+
+
+/* SALIDA DE PEDIDOS */
+
+.log{
+    background-color: white;
+    text-align: center;
+    color: #705036;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.6;
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 15px;
+    border: 1px solid #4a5568;;
+}
